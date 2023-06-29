@@ -4,8 +4,8 @@
 }
 
 body{
-    background-color: rgb(55, 97, 160);
-    color: white;
+    background-color: rgb(223, 224, 226);
+    color: black;
     font-family: 'Montserrat', sans-serif; 
 }
 
@@ -13,18 +13,34 @@ body{
     font-size: 18px;
     text-align: left;
     margin-top: 20px;
-    margin-left: 40px
+    margin-left: 40px;
+    font-weight: 600;
+}
+
+.cabeçalho a{
+    color: blue;
+    text-decoration: none;
+
 }
 
 .name {
-    font-size: 20px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;  
 }
 
-.aoLado div {
-    display: inline-block;
-    margin: auto;
-    margin-left: 40px;
+.container-foto {
+    height: 400px;
+    margin-top: 40px;
+}
+
+
+#minhaFoto{
+    float: left;
+    height: 380px;
+    width: 300px;
+    padding: 10px;
+    background-color: rgb(31, 31, 53);
 }
 
 
@@ -47,4 +63,8 @@ ul {
 
 .empatia {
     font-size: 18px;
+}
+
+div {
+    border: 2px solid green;
 }
